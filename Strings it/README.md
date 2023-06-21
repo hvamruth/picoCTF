@@ -16,3 +16,4 @@ The title and tutorial in the hint seems to point towards using the strings comm
 'strings | grep picoCTF'
 
 # Flag
+picoCTF{5tRIng5_1T_827aee91}
