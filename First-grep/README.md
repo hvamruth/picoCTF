@@ -16,3 +16,4 @@ What grep does is it filters for a specific expression in a plain-text. We know 
 picoCTF{...}, so we can grep for the expression picoCTF. Specifically, we would do cat file | grep picoCTF.
 
 # Flag
+picoCTF{grep_is_good_to_find_things_dba08a45}
