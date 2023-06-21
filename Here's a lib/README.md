@@ -13,8 +13,7 @@ PWNTools has a lot of useful features for getting offsets.
 Very standard ret2libc challenge with vuln being the vulnerable ELF executable and libc.so.6 being the version of libc used that is needed to exploit the challenge. You can learn about ret2libc challenges in a lot of places including LiveOverflow's videos on the topic, pwn.college, and here: https://research.801labs.org/stack-exploitation/
 
 Final exploit script:
-
-./python
+------------------------------------------------------------
 from pwn import *
 p = remote('mercury.picoctf.net', 1774)
 elf = ELF("./vuln")
