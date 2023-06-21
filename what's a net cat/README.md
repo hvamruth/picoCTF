@@ -8,3 +8,4 @@ Can you connect to jupiter.challenges.picoctf.org at port 64287 to get the flag?
 nc tutorials
 
 # Flag
+picoCTF{nEtCat_Mast3ry_284be8f7}
