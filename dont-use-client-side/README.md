@@ -161,4 +161,45 @@ function verify() {
 So this is very similar to dont-use-client-side, using substring to authenticate the password.
 
 We have:
+'pico') {
+'a3c8') {
+'CTF{') {
+'ts_p') {
+'lien') {
+'lz_1') {
+'no_c') {
+'9}') {
 
+Notice that there are some overlaps.
+
+An evil way to turn this into a flag would be by transforming the javascript substrings into Python array-assignment code and executing it:
+
+---
+
+text = """
+  if (checkpass["substring"](0, split * 2) == "picoCTF{") {
+    if (checkpass["substring"](7, 9) == "{n") {
+      if (checkpass["substring"](split * 2, split * 2 * 2) == "not_this") {
+        if (checkpass["substring"](3, 6) == "oCT") {
+          if (checkpass["substring"](split * 3 * 2, split * 4 * 2) == "55670}") {
+            if (checkpass["substring"](6, 11) == "F{not") {
+                if (checkpass["substring"](12, 16) == "this") {
+              if (checkpass["substring"](split * 2 * 2, split * 3 * 2) == "_again_0") {
+"""
+
+flag = [None] * 32
+split = 4
+for line in text.split("\n"):
+    line = line.strip()
+    if line == "": 
+        continue
+    line = line.replace('if (checkpass["substring"](', 'flag[').replace(', ', ":").replace(') == ', '] = ').replace(') {', '')
+    exec(line)
+
+print "".join(flag)
+
+
+
+This gives us the flag at the price of allowing exec to slip into our code.
+
+# Flag
