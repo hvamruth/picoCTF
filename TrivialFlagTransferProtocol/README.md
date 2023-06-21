@@ -66,4 +66,4 @@ After trying the steghide command in all three images, the flag.txt was found in
 steghide extract -sf picture3.bmp
 
 # Flag
-
+picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
