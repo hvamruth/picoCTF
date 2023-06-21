@@ -14,6 +14,7 @@ Very standard ret2libc challenge with vuln being the vulnerable ELF executable a
 
 Final exploit script:
 
+./python
 from pwn import *
 p = remote('mercury.picoctf.net', 1774)
 elf = ELF("./vuln")
