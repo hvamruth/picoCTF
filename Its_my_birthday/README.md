@@ -14,6 +14,6 @@ I sent out 2 invitations to all of my friends for my birthday! I'll know if they
 Points : 100
 
 # Solution
-I searched up "MD5 collision" and eventually found [this]([url](https://www.mscs.dal.ca/~selinger/md5collision/))website. It provided 2 executable files (hello and erase) which have the same MD5 hash. I downloaded those files and changed the extension to a .pdf file.
+I searched up "MD5 collision" and eventually found [this]([url](https://www.mscs.dal.ca/~selinger/md5collision/)) website. It provided 2 executable files (hello and erase) which have the same MD5 hash. I downloaded those files and changed the extension to a .pdf file.
 I uploaded those two files and the website redirected to the PHP:
 The flag can be found in a comment at the end of the PHP (before the HTML portion, line 37)
