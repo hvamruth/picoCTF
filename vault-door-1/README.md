@@ -17,3 +17,4 @@ methods, we can find the flag manually. We know that there should only be 32 (fr
 as the fucntion also checks that the length of the string is 32, so we can stop once we reach charAt(31).
 
 # Flag
+picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_ff63b0}
