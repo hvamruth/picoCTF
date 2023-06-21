@@ -17,3 +17,6 @@ Find the row corresponding the the letter
 In the row, find the column which contains the matching ciphertext letter
 The matching plaintext letter is noted at the top of the column
 In our case, the plaintext is CRYPTOISFUN.
+
+# Flag
+picoCTF{CRYPTOISFUN}
