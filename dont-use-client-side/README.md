@@ -203,3 +203,4 @@ print "".join(flag)
 This gives us the flag at the price of allowing exec to slip into our code.
 
 # Flag
+picoCTF{no_clients_plz_1a3c89}
