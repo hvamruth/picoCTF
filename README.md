@@ -1,4 +1,4 @@
-# picoCTF
+# PicoCTF
 Solved Flag copies & writeups 
 
 
